@@ -11,7 +11,7 @@ define("MOD_DIR", ROOT_DIR."/modulos");			// Modulos del sistema
 define("UPLOADS_DIR", ROOT_DIR."/uploads");		// Directorio para uploads
 /*******************************************
  ** Headers para que el explorador no guarde
- ** las páginas en cache.
+ ** las pï¿½ginas en cache.
  *******************************************/
 header('Content-Type: text/html; charset=iso-8859-1');
 header("Cache-control: no-cache");
@@ -45,19 +45,19 @@ $fondo1 = "fondo1.jpg"; //imagen de fondo del encabezado
 $atrib_tr="bgcolor=$bgcolor_out onmouseover=\"this.style.backgroundColor = '$bgcolor_over'; this.style.color = '$text_color_over'\" onmouseout=\"this.style.backgroundColor = '$bgcolor_out'; this.style.color = '$text_color_out'\"";
 
 /*******************************************
- ** Cantidad de items a mostrar por página.
+ ** Cantidad de items a mostrar por pï¿½gina.
  *******************************************/
 
 $itemspp = 50;
 
 /*******************************************
- ** Configuración de la base de datos.
+ ** Configuraciï¿½n de la base de datos.
  *******************************************/
 
 $db_type = 'postgres8';				// Tipo de base de datos.
-$db_host = '192.168.1.243';		// Host para desarrollo.
+$db_host = 'localhost';		// Host para desarrollo.
 $db_user = 'projekt';				// Usuario.
-$db_password = 'posiuggfaf';			// Contraseña.
+$db_password = 'propcp';			// Contraseï¿½a.
 $db_name = 'nacer';
 
 
@@ -88,15 +88,15 @@ $db_debug = FALSE;					// Debugger de las consultas.
 
 /*******************************************
  ** Limite de tiempo de inactividad para la
- ** expiración de la sesión (en minutos).
+ ** expiraciï¿½n de la sesiï¿½n (en minutos).
  *******************************************/
 
  $session_timeout = 480;
 
 /*******************************************
  ** Variable $html_root que contiene la ruta
- ** a la raíz de la página.
- ** (Ruta relativa al URL de la página)
+ ** a la raï¿½z de la pï¿½gina.
+ ** (Ruta relativa al URL de la pï¿½gina)
  *******************************************/
 //if (ereg("(/modulos)|(/lib)|(/index.php)|(/menu.php)|(/menu_xml.php)|(/aviso.php)",$_SERVER["SCRIPT_NAME"],$tmp)) {
 //	$tmp=explode($tmp[1].$tmp[2].$tmp[3].$tmp[5].$tmp[6],$_SERVER["SCRIPT_NAME"]);
@@ -114,7 +114,7 @@ unset($tmp);
 
 /*******************************************
  ** Variable $html_footer contiene el
- ** pie de la página.
+ ** pie de la pï¿½gina.
  *******************************************/
 
 $html_footer = "
@@ -132,7 +132,7 @@ require LIB_DIR."/lib.php";
 
 /*******************************************
  ** Variable $html_header contiene el
- ** encabezamiento de la página.
+ ** encabezamiento de la pï¿½gina.
  *******************************************/
  
 if ($_ses_cambiar_perfil_usuario == 1) 
