@@ -1,0 +1,31 @@
+/* 
+    Hoja de estilos con clases para usar en los links de paginacion
+*/
+
+.linkPage{
+    background-color: #CCCCCC !important;
+    color: #006699 !important;
+    padding: 1px 5px;
+}
+.linkPage.actualPage{
+    background-color: #006699 !important;
+    color: #CCCCCC !important;
+    font-size: 10pt;
+}
+.linkPageII{
+    background-color: #CCCCCC !important;
+    color: #00496B !important;
+    font-weight: bold;
+    font-size: 8pt;
+    padding: 1px 5px;
+    margin: 2px 0 1px 0;
+}
+.linkPageII.actualPage{
+    background-color: #00496B !important;
+    color: #CCCCCC !important;
+    font-size: 10pt;
+    margin: 1px;
+}
+.child{
+    padding: 0 0 0 20px;
+}

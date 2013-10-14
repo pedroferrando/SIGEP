@@ -1,0 +1,71 @@
+root { 
+    display: block;
+}
+
+.box{
+/*    position:fixed;*/
+/*    top:0px;
+    left:0%;
+    right:0%;*/
+    background-color:#fff;
+    color:#7F7F7F;
+    padding:20px;
+    border:2px solid #ccc;
+    z-index:101;
+/*    width: 3000px;*/
+/*    margin: 0 auto;*/
+/*    margin-left: 10%;
+    margin-right: 10%;*/
+margin: auto;
+}   
+#box input{
+    width:150px; 
+    display: block;
+    margin: .5em 0 0 0;
+}
+#box label{
+    width:150px; 
+    text-align: left;
+    display: block;
+    margin: .5em 0 0 0;
+}
+
+#box select{
+    width:150px; 
+    display: block;
+    margin: .5em 0 0 0;
+}
+#box #cmbDosis{
+    width:300px; 
+}
+#box #cmbGrupoRiesgo{
+    width:300px; 
+}
+#box .encabezado{
+    width:auto; 
+    text-align: center;
+    display: block;
+    margin: .5em 0 0 0;
+    background-color:#006699;
+    font-size: 15;
+    font-family: Verdana,sans-serif,helvetica;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonera{
+    width:auto; 
+    display: block;
+    margin: .5em 0 0 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#box .button{
+    width:150px; 
+    text-align: center;
+    display: block;
+    margin: .5em 0 0 0;
+    color: white;
+    background-color:#006699;
+}

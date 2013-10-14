@@ -1,0 +1,28 @@
+root { 
+    display: block;
+}
+#stylized
+{
+	border: 2px solid #B7DDF2;
+	background: #EBF4FB;
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+        z-index:101;
+}
+.enviar{
+    background: url('imagenes/subir_4.png') 0 0 no-repeat;
+    height: 24px;
+    width: 100px;
+    background-color: #fff;
+    border: none;
+    cursor:pointer;
+}
+body{
+    background-color: #fff;
+}
+tbody{
+    border-color: dodgerblue;
+    border-style:solid;
+    border-width:1px;
+}

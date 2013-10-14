@@ -1,0 +1,97 @@
+/* 
+Document   : inmunizaciones
+Created on : 16/04/2013, 12:05:28
+Author     : lrobin
+Description:
+Purpose of the stylesheet follows.
+
+root*/
+#INVALID-RULE
+{
+	display: block;
+}
+#stylized
+{
+	border: 2px solid #B7DDF2;
+	background: #EBF4FB;
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+        z-index:101;
+        
+}
+#stylized H1
+{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#stylized P
+{
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #B7DDF2;
+	padding-bottom: 10px;
+}
+#stylized LABEL
+{
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+        display: block;
+}
+#stylized .small
+{
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	width: 140px;
+        
+}
+#stylized INPUT
+{
+	float: left;
+	font-size: 12px;
+	padding: 2px 2px;
+	border: 1px solid #AACFE4;
+	width: 200px;
+/*	margin: 2px 0 20px 10px;*/
+}
+#stylized BUTTON
+{
+	clear: both;
+	margin-left: 150px;
+	width: 125px;
+	height: 31px;
+	background: #666666 url(img/button.png) no-repeat;
+	text-align: center;
+	line-height: 31px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+}
+#stylized SELECT
+{
+	float: left;
+	font-size: 12px;
+	padding: 2px 2px;
+	border: 1px solid #AACFE4;
+	width: 200px;
+/*	margin: 2px 0 20px 10px;*/
+}
+#caja
+{
+    text-align: center;
+    display: block;
+        border: 2px solid #B7DDF2;
+	background: #EBF4FB;
+	margin: auto;
+	width: 400px;
+/*	padding: 14px;
+        z-index:101;*/
+}

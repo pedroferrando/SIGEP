@@ -1,0 +1,52 @@
+/* 
+    Document   : estilosFacturacion
+    Created on : 23-ago-2013, 11:22:22
+    Author     : gustavo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.modal{
+    background-color: #DDDDDD;
+    border: 1px solid black;
+    left: 10%;
+    height: 450px;
+    overflow-y: scroll;
+    padding: 5px 5px 10px 5px;
+    width: 80%;
+}
+ul.tabs{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.tabs li{
+    float: left;
+    border: 1px solid #bbb;
+    border-bottom-width: 0;
+    margin: 0;
+}
+ul.tabs a{
+    text-decoration: none;
+    display: block;
+    background-color: #eee;
+    padding: 5px 8px;
+    color: #00c;
+    text-align: center;
+}
+ul.tabs a:hover {
+    background: #ddf !important;
+}
+ul.tabs .active {
+    border-color: black;
+}
+ul.tabs .active a {
+    position: relative;
+    background-color: #B0E0E6;
+    color: black;
+    font-weight: bold;
+}
+#formAltaDebitoRetro td{
+        font-size: 8pt;
+        color: #000;
+    }

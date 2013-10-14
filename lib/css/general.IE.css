@@ -1,0 +1,31 @@
+/* 
+    Document   : general.IE
+    Created on : 16/09/2013, 08:12:23
+    Author     : lmirabete
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/** A WebReflection Solution */
+#position-fixed-top {
+    position: absolute !important;
+    top: expression(((document.documentElement.scrollTop || document.body.scrollTop) + (!this.offsetHeight && 0)) + "px");
+}
+#position-fixed-center {
+    position: absolute !important;
+    top: expression(((document.documentElement.scrollTop || document.body.scrollTop) + ((((document.documentElement.clientHeight || document.body.clientHeight) + (!this.offsetHeight && 0)) / 2) >> 0)) + "px");
+}
+#position-fixed-bottom {
+    position: absolute !important;
+    top: expression(((document.documentElement.scrollTop || document.body.scrollTop) + (document.documentElement.clientHeight || document.body.clientHeight) - this.offsetHeight-15) + "px");
+    /* se resta 15 a offsetHeight pq el contenido queda un poquito escondido en IE*/
+}
+.referencia label{
+    vertical-align: baseline;   
+}
+.modal{
+    height: 390px;
+}
+.modal h3{
+    font-size: 10pt;
+}

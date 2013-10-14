@@ -1,0 +1,155 @@
+/* 
+    Document   : general
+    Created on : 13/09/2013, 08:57:47
+    Author     : lmirabete
+    Description: declaracion de reglas de uso general en el sistema,
+                 no solo en una pantalla o modulo
+*/
+
+/* posiciona el elemento en la cabecera del documento, fijo */
+#position-fixed-top{
+    position:fixed !important;
+    top: 0;
+}
+/* posiciona el elemento en el centro del documento, fijo */
+#position-fixed-center{
+    position:fixed !important;
+    top: 50%;
+}
+/* posiciona el elemento al pie del documento, fijo */
+#position-fixed-bottom{
+    bottom: 20;
+    position: fixed;
+
+}
+.referencia{ 
+    background-color: #FFFFFF;
+    border: solid thin black;
+    float:right;
+    font-size: 8pt;
+    padding:5px; 
+    right: 0;
+}
+.referencia .inner{
+    border: none;
+}
+.referencia label{
+    vertical-align: super;
+}
+/* reglas para tooltip css */
+.tooltip{
+    color: #000000;
+}
+.tooltip:hover .referencia{
+    display: block !important;
+}
+.tooltip .referencia{
+    color: #000000;
+    display: none;
+    position: absolute;
+    right: auto;
+    text-align: justify;
+    width: 250px !important;
+}
+
+body{
+    background-color: white;
+}
+.contenido{
+    width:95%;
+    margin: 20px;
+}
+.tablagenerica { 
+    margin:0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: left;
+    display: table;
+}
+.con{
+    background-color:#EFFCFE;
+}
+.tablagenerica td, .tablagenerica th {
+    padding: 3px 3px; 
+}
+.tablagenerica th {
+    background-color:powderblue;
+    color: #363636;
+    font-size: 8pt;
+    text-align: center;
+} 
+.tablagenerica th:first-child {
+    border: none;
+}
+.tablagenerica th a{
+    color: #363636;
+}
+.tablagenerica tbody td {
+    color: #00496B; border-left: 1px solid #E1EEF4;font-size: 12px;font-weight: normal;
+}
+.tablagenerica tbody .alt td {
+    background: #E1EEF4; color: #00496B;
+}
+.tablagenerica tbody td:first-child {
+    border-left: none;
+}
+.tablagenerica tbody tr:last-child td {
+    border-bottom: none;
+}
+.tablagenerica tfoot td div {
+    border-top: 1px solid #006699;
+    background: #E1EEF4;
+} 
+.tablagenerica tfoot td {
+    padding: 0;
+    font-size: 12px 
+}
+.tablagenerica tfoot td div{
+    padding: 2px;
+}
+.tablagenerica tfoot td ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-align: right;
+}
+.tablagenerica tfoot  li {
+    display: inline;
+}
+.tablagenerica tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #006699;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+    background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color:#006699;
+}
+.tablagenerica tfoot ul.active,.tablagenerica tfoot ul a:hover {
+    text-decoration: none;
+    border-color: #006699;
+    color: #FFFFFF;
+    background: none;
+    background-color:#00557F;
+}
+
+.tablagenerica .hovered, .tablagenerica tr:hover{
+    text-decoration: none;
+    border-color: #006699;
+    background: none;
+    background-color:#A9F5F2;
+
+}
+
+.titulo_pagina{
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}

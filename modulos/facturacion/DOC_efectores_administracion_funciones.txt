@@ -1,0 +1,82 @@
+#################################
+Clase Efector()
+#################################
+
+Sintaxis básica:
+
+	$efec = new Efector();
+	$efec->setCuie("XXXX");
+	$efec->ConstruirResult(sql($efec->getSqlSelect()));
+
+
+--------------------
+###	Obtencion de datos del objecto
+
+$efec->getBanco() >> ID BANCO
+$efec->getNombreBanco() >> NOMBRE DEL BANCO
+$efec->getNombre() >> NOMBRE DEL EFECTOR
+$efec->getCuie() >> CUIE DEL EFECTOR
+$efec->getReferente() >> NOMBRE DEL REFERENTE
+$efec->getTelefono() >> TELEFONO
+$efec->getTipo() >> TIPO DE EFECTOR
+$efec->getNivel() >> NIVEL DEL EFECTOR
+$efec->getNroCuenta() >> NRO DE CUENTA DEL EFECTOR
+$efec->getCodPos() >> COD POSTAL DEL EFECTOR
+$efec->getDomicilio() >> DOMICILIO DEL EFECTOR
+$efec->getCiudad() >> CIUDAD DEL EFECTOR
+$efec->getDepartamento() >> DEPARTAMENTO DEL EFECTOR
+$efec->getSistema() >> SISTEMA DEL EFECTOR
+$efec->getCodOrg() >> COD ORG DEL EFECTOR
+$efec->getPresentacion() >> "CUIE, NOMBRE DEL EFECTOR"
+
+
+-------------------
+###	Grabado de datos al objecto
+
+$efec->setBanco($Banco) << ID BANCO
+$efec->setNombreBanco($NombreBanco) << NOMBRE DEL BANCO
+$efec->setNombre($Nombre) << NOMBRE DEL EFECTOR
+$efec->setCuie($Cuie) << CUIE DEL EFECTOR
+$efec->setReferente($Referente) << NOMBRE DEL REFERENTE
+$efec->setTelefono($Telefono) << TELEFONO
+$efec->setTipo($Tipo) << TIPO DE EFECTOR
+$efec->setNivel($Nivel) << NIVEL DEL EFECTOR
+$efec->setNroCuenta($NroCuenta) << NRO DE CUENTA DEL EFECTOR
+$efec->setCodPos($CodPos) << COD POSTAL DEL EFECTOR
+$efec->setDomicilio($Domicilio) << DOMICILIO DEL EFECTOR
+$efec->setCiudad($Ciudad) << CIUDAD DEL EFECTOR
+$efec->setDepartamento($Departamento) << DEPARTAMENTO DEL EFECTOR
+$efec->setSistema($Sistema) << SISTEMA DEL EFECTOR
+$efec->setCodOrg($CodOrg) << COD ORG DEL EFECTOR
+
+----------------
+
+###	SQL desde el objeto
+
+$efec->getSqlInsert() >> SQL PARA NUEVO EFECTOR
+$efec->getSqlUpdate() >> SQL PARA ACTUALIZAR POR CUIE
+$efec->getSqlDelete() >> SQL PARA ELIMINAR POR CUIE
+$efec->getSqlSelect() >> SQL PARA SELECCUINAR POR CUIE
+$efec->getSqlSelectGenerico(#VALOR,#CRITERIO) >> SQL GENERICO Y FLEXIBLE POR WHERE 
+		>> EJ: $efec->getSqlSelectGenerico("'".$cuie."'", "cuie = ") >> SQL FILTRADO DONDE EL CUIE = $cuie
+
+
+---------------
+
+### CONSTRUCTORES
+
+$efec->construirResult($result) << CONTRUYE EL OBJETO AUTOMATICAMENTE EN BASE AL RESULT
+
+
+
+
+
+
+
+
+
+
+
+
+
+

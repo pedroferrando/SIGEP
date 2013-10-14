@@ -1,0 +1,114 @@
+/* 
+    Document   : sprites
+    Created on : 12/09/2013, 08:06:49
+    Author     : lmirabete
+    Description: reglas que se aplican al uso de imagenes como sprite        
+*/
+
+/*
+    REGLAS PARA SPRITE GENERAL => estilos generados por la pag icommon
+*/
+.sprite-gral{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../lib/css/sprites/sprites_generales.png');
+    background-repeat: no-repeat;
+}
+.icon-x-altx-alt {
+    background-position: 0 0;
+}
+.icon-minus-alt {
+    background-position: -32px 0;
+}
+.icon-check-alt {
+    background-position: -64px 0;
+}
+.icon-profile {
+    background-position: -96px 0;
+}
+.icon-aid {
+    background-position: -128px 0;
+}
+.icon-pencil {
+    background-position: 0 -32px;
+}
+.icon-file {
+    background-position: -32px -32px;
+}
+.icon-paste {
+    background-position: -64px -32px;
+}
+.icon-coin {
+    background-position: -96px -32px;
+}
+.icon-calendar {
+    background-position: -128px -32px;
+}
+.icon-spinner {
+    background-position: 0 -64px;
+    -moz-animation: rotation 2s infinite linear;
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-moz-keyframes rotation {
+    from {-moz-transform: rotate(0deg);}
+to   {-moz-transform: rotate(359deg);}
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+to   {-webkit-transform: rotate(359deg);}
+}
+
+.icon-search {
+    background-position: -32px -64px;
+}
+.icon-cog {
+    background-position: -64px -64px;
+}
+.icon-pie {
+    background-position: -96px -64px;
+}
+.icon-stats {
+    background-position: -128px -64px;
+}
+.icon-remove {
+    background-position: 0 -96px;
+}
+.icon-signup {
+    background-position: -32px -96px;
+}
+.icon-attachment {
+    background-position: -64px -96px;
+}
+.icon-info {
+    background-position: -96px -96px;
+}
+.icon-spam {
+    background-position: -128px -96px;
+}
+.icon-checkbox-checked {
+    background-position: 0 -128px;
+}
+.icon-checkbox-unchecked {
+    background-position: -32px -128px;
+}
+.icon-file-pdf {
+    background-position: -64px -128px;
+}
+.icon-file-excel {
+    background-position: -96px -128px;
+}
+.icon-info2 {
+    background-position: -128px -128px;
+}
+.icon-floppy {
+    background-position: 0 -160px;
+}
+.icon-download {
+    background-position: -32px -160px;
+}
+.icon-upload {
+    background-position: -64px -160px;
+}
